@@ -17,8 +17,8 @@ module ActiveMeta
           register_rule(ValidatesInclusion.new(attribute, 'validates_inclusion', opts))
         end
 
-        def validates_presence
-          register_rule(ValidatesPresence.new(attribute, 'validates_presence'))
+        def validates_presence(opts = {})
+          register_rule(ValidatesPresence.new(attribute, 'validates_presence', opts))
         end
 
         def validates_uniqueness(opts = {})
