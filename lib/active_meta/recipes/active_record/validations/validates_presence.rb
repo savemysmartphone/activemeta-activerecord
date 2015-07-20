@@ -7,7 +7,7 @@ module ActiveMeta
             binded_attribute = attribute
             binded_opts = opts
             Proc.new do
-              validates_presence_of binded_attribute, opts
+              validates_presence_of binded_attribute, binded_opts
             end
           end
         end
