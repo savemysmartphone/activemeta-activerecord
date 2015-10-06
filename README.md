@@ -3,4 +3,5 @@ ActiveMeta rules for ActiveRecord validations
 
 # Changelog
 
- * First working version. (Arnaud 'red' Rouyer)
+ * 0.0.2: Adding rule wrapper for ActiveRecord `.validates` method.
+ * 0.0.1: First working version. (Arnaud 'red' Rouyer)
